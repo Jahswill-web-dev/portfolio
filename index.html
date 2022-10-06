@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Jahswill</title>
+</head>
+
+<body>
+
+    <header id="home">
+        <div class="container">
+            <!-- Nav section -->
+            <nav class="flex">
+                <div class="my-logo">
+                    <img src="../images/logo.svg" alt="">
+                </div>
+                <div class="nav-list">
+                    <i class="fa-solid fa-x"></i>
+                    <ul class="nav-list-b flex">
+                        <a href="#about-me">
+                            <li class="list-items">About</li>
+                        </a>
+                        <a href="#projects">
+                            <li class="list-items">Projects</li>
+                        </a>
+                        <a href="#contact-me">
+                            <li class="list-items">Contact </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav-hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <!-- hero section -->
+            <div class="hero-section flex">
+                <div class="hero-image">
+                    <img src="../images/Avatar-b-img.png" alt="">
+                </div>
+                <div class="hero-text">
+                    <h4 class="hero-h4">hello</h4>
+                    <h1 class="hero-name">I'm Jahswill </h1>
+                    <h3 class="hero-dev">Fullstack web developer</h3>
+                    <a href="mailto:onuegbujahswill@gmail.com"> <button class="contact btn">contact me</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- About Me section  -->
+
+    <section class="about-section" id="about-me">
+        <div class="container about flex">
+            <div class="about-me-image">
+                <img src="../images/about-me.png" alt="">
+            </div>
+            <div class="about-me-text">
+                <h2>About Me</h2>
+              <p>  Hello there!!! my name is Jahswill, I’m a Frontend developer who enjoys designing and developing
+                beautiful websites for businesses so as to
+                serve there customers better regardless of thier location, I also love learning new things that is why I’m so
+                interested in Tech because it is constantly changing and getting better so there’s a lot of new things
+                to learn and understand, so that’s me in a nutshell.
+            </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects section -->
+    <section class="projects-section">
+        <!-- <div class="container"> -->
+            <h1>My Portfolio </h1>
+            <div class="projects flex-column">
+
+            </div>
+        <!-- </div> -->
+    </section>
+
+
+    <!-- contact me -->
+    <section class="contact">
+        <div class="container contact-container flex-column">
+            <form action="" method="post" class="flex">
+                <div class="names-container flex">
+                    <input type="text" name="fname" placeholder="First Name" class="fname">
+                    <input type="text" name="lname" placeholder="Last Name" class="lname">
+                </div>
+                <div class="em-nb flex">
+                    <input type="email" name="email" placeholder="Email" class="email">
+                    <input type="number" name="number" placeholder="Phone" class="number">
+                </div>
+                <textarea name="message"  placeholder="SUBJECT" id="message" cols="30" rows="5" class="message"></textarea>
+                <button type="submit" class="btn send-btn" 
+               >Send <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+            <div class="social-links flex-column">
+                <div class="email-link flex"> <a href="mailto:onuegbujahswill@gmail.com"><i class="fa-solid fa-envelope"></i> onuegbujahswill@gmail.com</a></div>
+                <!-- <div class="phone-link"> <i class="fa-solid fa-phone"></i> </div> -->
+                <div class="facebook-link"> <a href="https://web.facebook.com/jahswillc" target=”_blank” attribute><i class="fa-brands fa-facebook"></i> JahswillC</a></div>
+                <div class="facebook-link"> <a href="https://www.linkedin.com/in/jahswillc" target=”_blank” attribute><i class="fa-brands fa-linkedin"></i> JahswillC</a></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container copy">
+            copyright &copy; <p class="year" style="color:black; display:inline-block"></p> license
+        </div>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
