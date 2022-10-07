@@ -30,8 +30,8 @@ const projects =[
         title:"huddle landing page",
         img:"../images/huddle.jpg",
         description:"a frontendmentor challenge, landing page on a platform for a communnities ",
-        github:"#",
-        live:"#",
+        github:"https://github.com/Jahswill-web-dev/huddle-landing-page",
+        live:"https://jahswill-web-dev.github.io/huddle-landing-page/",
         specialClass:"huddle-class",
         flexR:"d-flex-row",
         techStack:" <p>html</p> <p>css</p>"
@@ -40,8 +40,8 @@ const projects =[
         title:"tinDog",
         img:"../images/tindog-1.png",
         description:"a landing page for meetup website for dogs",
-        github:"#",
-        live:"#",
+        github:"https://github.com/Jahswill-web-dev/tindog",
+        live:"https://jahswill-web-dev.github.io/tindog/",
         specialClass:"tindog-class",
         flexR:"d-flex-row-reverse",
         techStack:" <p>html</p> <p>css</p> <p>Bootstrap</p>"
