@@ -17,7 +17,7 @@ var projectContainer = document.querySelector(".projects");
 const projects =[
     {
         title:"clipboard landing page",
-        img:"../images/clipboard.jpg",
+        img:"images/clipboard.jpg",
         description:"a frontendmentor challenge on a clipboard landing page",
         github:"https://github.com/Jahswill-web-dev/clipboard-landing-page",
         live:"https://jahswill-web-dev.github.io/clipboard-landing-page/",
@@ -28,7 +28,7 @@ const projects =[
     },
     {
         title:"huddle landing page",
-        img:"../images/huddle.jpg",
+        img:"images/huddle.jpg",
         description:"a frontendmentor challenge, landing page on a platform for a communnities ",
         github:"https://github.com/Jahswill-web-dev/huddle-landing-page",
         live:"https://jahswill-web-dev.github.io/huddle-landing-page/",
@@ -38,7 +38,7 @@ const projects =[
     },
     {
         title:"tinDog",
-        img:"../images/tindog-1.png",
+        img:"images/tindog-1.png",
         description:"a landing page for meetup website for dogs",
         github:"https://github.com/Jahswill-web-dev/tindog",
         live:"https://jahswill-web-dev.github.io/tindog/",
